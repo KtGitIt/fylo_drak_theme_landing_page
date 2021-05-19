@@ -366,6 +366,10 @@ img {
     margin-bottom: 3.75rem;
   }
 
+  .hero-img {
+    max-width: 650px;
+  }
+
   .hero-section-text {
     max-width: 825px;
     margin: 0 auto;
