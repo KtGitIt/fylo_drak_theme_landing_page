@@ -375,12 +375,13 @@ img {
     margin: 0 auto;
   }
   .hero-section-text h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2.375rem;
+    padding: 0 4rem;
   }
   .hero-section-text p {
-    font-size: 1.325rem;
-    padding: 0 5.95rem;
+    font-size: 1.125rem;
+    padding: 0 6rem;
     margin-bottom: 2rem;
   }
 
