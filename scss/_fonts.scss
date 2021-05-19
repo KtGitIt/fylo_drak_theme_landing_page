@@ -1,0 +1,62 @@
+@use 'colors' as c;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&family=Raleway:wght@400;700&display=swap");
+
+$body-fonts: "Open Sans", sans-serif;
+
+$heading-cta-fonts: "Raleway", sans-serif;
+
+a {
+  color: c.$text-color;
+  font-family: $body-fonts;
+  font-weight: 400;
+}
+p {
+  font-family: $body-fonts;
+  line-height: 2;
+}
+h1,
+h2,
+h3 {
+  font-family: $heading-cta-fonts;
+  line-height: 1.5;
+}
+.nav-link {
+  font-size: 0.95rem;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.testimonial-title {
+  h3 {
+    font-size: 0.85rem;
+  }
+}
+.testimonial-subtitle {
+  font-family: $body-fonts;
+  font-size: 0.625rem;
+}
+
+.hero-section-text {
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 3.125rem;
+  }
+  p {
+    font-size: 1.115rem;
+    margin-bottom: 4.6rem;
+  }
+
+  a {
+    font-size: 1.15rem;
+  }
+}
+.stay-productive-link {
+  color: c.$btn-cyan;
+  display: inline-block;
+  border-bottom: 1px solid c.$btn-cyan;
+  padding-bottom: 0.4rem;
+}
+
+.cta-heading {
+  font-size: 1.525rem;
+}

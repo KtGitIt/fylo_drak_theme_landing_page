@@ -1,0 +1,25 @@
+$introAndEmail-bg: hsl(217, 28%, 15%);
+$main-bg: hsl(218, 28%, 13%);
+$text-color: hsl(0, 0%, 98%);
+$btn-cyan: hsl(176, 68%, 64%);
+$btn-blue: hsl(198, 60%, 50%);
+$footer-bg: hsl(216, 53%, 9%);
+
+.stay-productive-link:hover {
+  color: $text-color;
+  border-color: $text-color;
+}
+
+.hero-section-btn:hover {
+  filter: brightness(1.2);
+}
+.cta-btn:hover {
+  filter: brightness(1.2);
+}
+.footer-info-links a:hover {
+  font-size: 1.1rem;
+}
+.fab:hover {
+  color: $btn-cyan;
+  border: 1px solid $btn-cyan;
+}

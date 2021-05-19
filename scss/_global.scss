@@ -1,0 +1,22 @@
+@use 'colors' as c;
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background-color: c.$main-bg;
+  color: c.$text-color;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
